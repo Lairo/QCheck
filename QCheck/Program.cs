@@ -13,10 +13,10 @@
                     Console.WriteLine("Thanks for playing!");
                     return;
                 }
-                if (q.Check(i)) //??
+                if (q.Check(i)) 
                 {
                     Console.WriteLine("Right!");
-                     =  Q(Q.R.Next(2) == 1);
+                    q = new Q(Q.R.Next(2) == 1);
                 }
                 else
                 {
